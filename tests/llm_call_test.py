@@ -9,7 +9,7 @@ Groq()
 client = Groq()
 response = client.chat.completions.create(
     model="llama-3.3-70b-versatile",
-    messages=[{"role": "user", "content": "Who is messi?"}],
+    messages=[{"role": "user", "content": "Hello"}],
     temperature=0.3,
     max_completion_tokens=128,
     top_p=0.85,
