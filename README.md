@@ -1,4 +1,4 @@
-# ResearchLens 🔬
+# ResearchLens
 
 > AI-powered academic paper discovery — search arXiv using natural language and get the most relevant research papers ranked by a hybrid retrieval engine.
 
@@ -6,7 +6,7 @@
 
 ## What is ResearchLens?
 
-ResearchLens is a backend-first research assistant that lets users search for academic papers using plain, conversational language. Instead of crafting precise arXiv queries, users can say things like *"something about making LLMs faster and cheaper"* or *"how is AI being used in hospitals"* — and get back highly relevant, ranked research papers.
+ResearchLens is a backend-first research assistant that lets users search for academic papers using plain, conversational language. Instead of crafting precise arXiv queries, users can say things like *"get me papers on reinforcement learning for warehouse robotics"* or *"how is AI being used in hospitals"* — and get back highly relevant, ranked research papers.
 
 Under the hood, an LLM expands the user's casual query into rich technical keywords, which are then used to fetch and rank papers from arXiv using a hybrid search engine combining BM25 and dense semantic search.
 
@@ -26,7 +26,7 @@ Under the hood, an LLM expands the user's casual query into rich technical keywo
 ## Project Structure
 
 ```
-AI-Research-Assistant/
+ResearchLens/
 │
 ├── app/                        # FastAPI application
 │   ├── main.py                 # App entry point, middleware
@@ -43,7 +43,6 @@ AI-Research-Assistant/
 │   ├── arxiv_fetch.py          # arXiv paper fetching
 │   ├── preprocess.py           # Title + abstract merging
 │   ├── hybrid_search.py        # BM25 + semantic search
-│   └── reranker.py             # Reranking logic
 │
 ├── models/
 │   └── embedding_model.py      # all-MiniLM-L6-v2 embedding model
@@ -133,12 +132,11 @@ Search for research papers using natural language.
 {
   "papers": [
     {
-      "title": "Attention Is All You Need",
-      "abstract": "The dominant sequence transduction models...",
-      "date": "2023-06-12",
-      "link": "https://arxiv.org/abs/1706.03762"
-    }
-  ]
+      "title": "Multi-Agent Connected Autonomous Driving using Deep Reinforcement Learning",
+      "abstract": "The capability to learn and adapt to changes in the driving environment...",
+      "date": "2019-11-11",
+      "link": "http://arxiv.org/abs/1911.04175v1"
+    },
 }
 ```
 
@@ -160,11 +158,6 @@ Search for research papers using natural language.
 ---
 
 ## Getting Started
-
-### Prerequisites
-
-- Python 3.10+
-- A [Groq API key](https://console.groq.com/)
 
 ### 1. Clone the repository
 
