@@ -28,6 +28,15 @@ ResearchLens is a backend-first research assistant that lets users search for ac
 
 Under the hood, an LLM expands the user's casual query into rich technical keywords, which are then used to fetch and rank papers from arXiv using a hybrid search engine combining BM25 and dense semantic search.
 
+<p align="center">
+  <video src=""
+         width="720"
+         controls
+         muted>
+  </video>
+</p>
+
+
 ---
 
 ## Features
