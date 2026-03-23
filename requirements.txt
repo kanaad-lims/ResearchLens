@@ -1,0 +1,24 @@
+# API Framework
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# LLM
+groq==0.11.0
+
+# arXiv
+arxiv==2.1.3
+
+# Embeddings
+sentence-transformers==3.1.1
+
+# Search
+rank-bm25==0.2.2
+scikit-learn==1.5.2
+numpy==1.26.4
+
+# NLP
+nltk==3.9.1
+
+# Utils
+python-dotenv==1.0.1
+pydantic==2.9.2
