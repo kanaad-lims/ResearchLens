@@ -5,8 +5,8 @@
   <img src="https://img.shields.io/badge/Groq-Llama_3.3_70B-F55036?style=for-the-badge" />
   <img src="https://img.shields.io/badge/SentenceTransformers-3.1.1-FFB300?style=for-the-badge" />
   <img src="https://img.shields.io/badge/arXiv-API-B31B1B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge" />
   <br>
   <img src="https://img.shields.io/github/stars/kanaad-lims/ResearchLens?style=for-the-badge" />
   <img src="https://img.shields.io/github/forks/kanaad-lims/ResearchLens?style=for-the-badge" />
