@@ -70,8 +70,8 @@ ResearchLens/
 
 </p>
 <p align="center">
-<img src="" 
-       alt="ResearchLens flowchart" width="300">
+<img src="https://github.com/kanaad-lims/ResearchLens/blob/3130d5cf97aef922db040e8ec2d136ee644d0645/researchlens_flowchart.png" 
+       alt="ResearchLens flowchart" width="700" height=700>
 </p>
 
 ---
