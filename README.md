@@ -4,6 +4,12 @@
 
 ---
 
+</p>
+<p align="center">
+<img src="https://github.com/kanaad-lims/ResearchLens/blob/b6a925477eb423323b10e26aeee11faace229de9/researchlens_logo-removebg-preview.png" 
+       alt="ResearchLens flowchart" width="300">
+</p>
+
 ## What is ResearchLens?
 
 ResearchLens is a backend-first research assistant that lets users search for academic papers using plain, conversational language. Instead of crafting precise arXiv queries, users can say things like *"get me papers on reinforcement learning for warehouse robotics"* or *"how is AI being used in hospitals"* — and get back highly relevant, ranked research papers.
