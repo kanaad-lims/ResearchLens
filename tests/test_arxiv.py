@@ -26,11 +26,12 @@ for i, paper in enumerate(papers):
     print("Link:", paper["link"])
     print("Date:", paper["date"])
 
-
+# Results of Step 2:
 for i, p in enumerate(processed):
     print(f"\nTEXT: {i+1}\n", p["text"][:200])
 
 
+#Results of Step 3.
 print("\n\nTop 3 Search Results: ")
 for r in results:
     print("\nTitle:", r["title"])

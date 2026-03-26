@@ -1,6 +1,6 @@
 def preprocess_paper(papers):
     """
-    Combinig the title and abstract into single text field.
+    Combining the title and abstract into single text field.
 
     Args: (papers) List of dicts with keys - title, abstract, link, date.
 

@@ -21,7 +21,7 @@ def hybrid_search(query, papers, top_k=5):
 
     """
     BM25 Keyword Search
-    Tokenize paper txt and query, then cal BM25 scores.
+    Tokenize paper txt and query, then calculate BM25 scores.
     """
     tokenized_corpus = [tokenize(text) for text in texts]
     bm25 = BM25Okapi(tokenized_corpus)
