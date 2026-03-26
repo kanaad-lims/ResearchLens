@@ -6,6 +6,10 @@ from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="AI Research Assistant")
 
+# Download the nltk stopwords required for tokenizer in BM25.
+# One time download, then ignores.
+nltk.download('stopwords', quiet=True)
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
