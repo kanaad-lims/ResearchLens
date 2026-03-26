@@ -1,14 +1,41 @@
 # ResearchLens
 
+<p align="center">
+  <img src="https://img.shields.io/badge/FastAPI-0.115.0-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+  <img src="https://img.shields.io/badge/Groq-Llama_3.3_70B-F55036?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/SentenceTransformers-3.1.1-FFB300?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/arXiv-API-B31B1B?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/License-Apache_2.0-blue?style=for-the-badge" />
+  <br>
+  <img src="https://img.shields.io/github/stars/kanaad-lims/ResearchLens?style=for-the-badge" />
+  <img src="https://img.shields.io/github/forks/kanaad-lims/ResearchLens?style=for-the-badge" />
+</p>
+
 > AI-powered academic paper discovery — search arXiv using natural language and get the most relevant research papers ranked by a hybrid retrieval engine.
 
 ---
+
+</p>
+<p align="center">
+<img src="https://github.com/kanaad-lims/ResearchLens/blob/b6a925477eb423323b10e26aeee11faace229de9/researchlens_logo-removebg-preview.png" 
+       alt="ResearchLens flowchart" width="300">
+</p>
 
 ## What is ResearchLens?
 
 ResearchLens is a backend-first research assistant that lets users search for academic papers using plain, conversational language. Instead of crafting precise arXiv queries, users can say things like *"get me papers on reinforcement learning for warehouse robotics"* or *"how is AI being used in hospitals"* — and get back highly relevant, ranked research papers.
 
 Under the hood, an LLM expands the user's casual query into rich technical keywords, which are then used to fetch and rank papers from arXiv using a hybrid search engine combining BM25 and dense semantic search.
+
+<p align="center">
+  <video src=""
+         width="720"
+         controls
+         muted>
+  </video>
+</p>
+
 
 ---
 
@@ -70,8 +97,8 @@ ResearchLens/
 
 </p>
 <p align="center">
-<img src="" 
-       alt="ResearchLens flowchart" width="300">
+<img src="https://github.com/kanaad-lims/ResearchLens/blob/3130d5cf97aef922db040e8ec2d136ee644d0645/researchlens_flowchart.png" 
+       alt="ResearchLens flowchart" width="700" height=700>
 </p>
 
 ---
