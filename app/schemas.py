@@ -13,7 +13,6 @@ class PaperMetadata(BaseModel):
     abstract: str
     date: str
     link: str
-    #score: float
 
 # 3. Schema for query response
 class QueryResponse(BaseModel):

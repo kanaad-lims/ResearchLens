@@ -3,6 +3,7 @@ from app.routes.retrieval_routes import router
 from fastapi.staticfiles import StaticFiles
 from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
+import nltk
 
 app = FastAPI(title="AI Research Assistant")
 
